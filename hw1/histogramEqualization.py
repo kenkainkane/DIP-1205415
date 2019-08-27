@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load image and convert to grayscale
-im = cv2.imread('bright.jpg', 0)
+im = cv2.imread('img/bright.jpg', 0)
 
 # Equalization
 eq = cv2.equalizeHist(im)

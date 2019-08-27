@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 # Load image and convert to grayscale
-im1 = cv2.imread('bright.jpg', 0)
-im2 = cv2.imread('darkAndbright.jpg', 0)
-im3 = cv2.imread('dark.jpg', 0)
+im1 = cv2.imread('img/bright.jpg', 0)
+im2 = cv2.imread('img/darkAndbright.jpg', 0)
+im3 = cv2.imread('img/dark.jpg', 0)
 
 # Adjust gamma = 0.5
 lowGammaIm1 = np.power(im1/255, 0.5)
